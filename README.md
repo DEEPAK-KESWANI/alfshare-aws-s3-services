@@ -27,14 +27,14 @@ To package the application, follow these steps:
 
 3. **Locate the Packaged JAR**: After the build process completes successfully, you will find the packaged JAR file in the `target` directory. The JAR file will be named according to the `<artifactId> and <version>` specified in your `pom.xml`. For example:
     ```shell
-   target/alfshare-aws-s3-services-0.0.1.jar
+   target/s3client-0.0.1.jar
    ```
 ## Running the Packaged Application
 
 To run the packaged application, use the following command format:
 
 ```shell
-java -jar target/alfshare-aws-s3-services-0.0.1.jar <configFilePath> <operation> [<key> <filePath>]
+java -jar target/s3client-0.0.1.jar <configFilePath> <operation> [<key> <filePath>]
 
 ```
 

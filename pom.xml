@@ -98,6 +98,9 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
+				<configuration>
+					<finalName>s3client-${project.version}</finalName> <!-- Specify the desired JAR name here -->
+				</configuration>
 			</plugin>
 		</plugins>
 	</build>
